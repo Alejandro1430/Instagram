@@ -1,0 +1,551 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(237, 237, 237);
+}
+
+.contenedor-1{
+    display: flex;    
+    height: auto;
+    width: auto;
+}
+
+.telefonos-2{
+    height: 550px;
+    width:400px;
+    margin-top: 40px;
+    margin-left: 250px;
+}
+
+.formulario{
+    margin-left: 30px;
+    text-align: center;
+}
+
+.caja-grande{
+    margin-top: 50px;
+    width: 350px;
+    height: 390px;
+    background-color: white;
+    border: gray solid 1px;
+}
+
+.imagen-instagram{
+    padding-top: 40px;
+}
+
+.email{
+    margin-top: 30px;
+    height: 35px;
+    width: 260px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.contraseña{
+    margin-top: 7px;
+    height: 35px;
+    width: 260px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.boton-entrar{
+    margin-top: 15px;
+    width: 275px;
+    height: 30px;
+    background-color: rgb(79, 126, 255);
+    border: 1px gray solid;
+    color: white;
+    border-radius: 3px;
+}
+
+.linea-circulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 275px;
+    margin-left: 38px;
+    margin-top: 15px;
+}
+
+hr{
+   width: 44%;
+}
+
+.facebook{
+    align-items: center;
+    margin-top: 28px;
+    background-color: white;
+}
+
+.enlace{
+    font-size: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagen-facebook{
+    width: 15px;
+    padding-right: 7px;
+}
+
+.has-olvidado-la-contraseña{
+    font-size: 12px;
+    margin-top: 23px;
+}
+
+.se-me-olvido-la-contraseña{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caja-pequeña{
+    background-color: white;
+    border: 1px gray solid;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.crear-cuenta{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.registrate{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: blue;
+}
+
+.descargar-la-aplicacion{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 16px;
+    font-size: 13px;
+}
+
+.botones-descarga{
+    display: flex;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.boton-1{
+    background-color: black;
+    color: white;
+    display: flex;
+    border-radius: 7px;
+    padding-right: 5px;
+}
+
+.texto-1{
+    font-size: 8px;
+    margin-top: 5px;
+}
+
+.texto-2{
+    font-size: 18px;
+}
+
+.boton-2{
+    background-color: black;
+    color: white;
+    display: flex;
+    margin-left: 10px;
+    border-radius: 7px;
+    padding-right: 5px;
+}
+
+.text-1{
+    font-size: 7px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.text-2{
+    font-size: 17px;
+}
+
+.contenedor-2{
+    margin-top: 70px;
+}
+
+.primera-linea{
+    padding-left: 140px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-left: 9px;
+}
+
+.segunda-linea{
+    padding-left: 450px;
+    margin-top: 5px;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-left: 9px;
+}
+
+.ultima-linea{
+    display: flex;
+    padding-left: 520px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.idiomas{
+    border: none;
+    background-color: rgb(237, 237, 237);
+    outline: none;
+    font-size: 12px;
+    width: auto;
+    height: 20px;
+}
+
+.from-meta{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+@media(max-width:1200px){
+    .primera-linea{
+        padding-left: 120px;
+    }
+
+    .contenedor-1{
+        padding-right: -400px;
+        margin-top: 100px;
+    }
+
+    .contenedor-2{
+        margin-top: 150px;
+    }
+}
+
+@media(max-width:1140px){
+    .primera-linea{
+        width: auto;
+        padding-left: 60px;
+        text-align: center;
+    }
+
+    .segunda-linea{
+        width: auto;
+        padding-left: 350px;
+    }
+
+    .ultima-linea{
+        padding-left: 410px;
+        width: auto;
+    }
+
+    .telefonos-2{
+        display: none;
+    }
+
+    .formulario{
+        margin-left: 380px;
+    }
+}
+
+@media(max-width:941px){
+    .primera-linea{
+        width: auto;
+    }
+
+    .segunda-linea{
+       padding-left: 300px;
+       width: auto;
+    }
+
+    .ultima-linea{
+        padding-left: 350px;
+        width: auto;
+    }
+
+    .formulario{
+        margin-left: 330px;
+    }
+}
+
+@media(max-width: 840px){
+    .primera-linea{
+        padding-left: 3px;
+        width: auto;
+    }
+
+    .segunda-linea{
+       padding-left: 215px;
+       width: auto;
+    }
+
+    .ultima-linea{
+        padding-left: 265px;
+        width: auto;
+    }
+
+    .formulario{
+        margin-left: 230px;
+    }
+}
+
+@media(max-width: 768px){
+    .primera-linea{
+        padding-left: 3px;
+        width: auto;
+    }
+
+    .segunda-linea{
+       padding-left: 215px;
+       width: auto;
+    }
+
+    .ultima-linea{
+        padding-left: 265px;
+        width: auto;
+    }
+
+    .formulario{
+        margin-left: 215px;
+    }
+}
+
+@media(max-width: 720px){
+    .primera-linea{
+        padding-left: 1px;
+        width: auto;
+    }
+
+    .segunda-linea{
+       padding-left: 145px;
+       width: auto;
+    }
+
+    .ultima-linea{
+        padding-left: 200px;
+        width: auto;
+    }
+
+    .formulario{
+        margin-left: 180px;
+    }
+}
+
+@media(max-width: 632px){
+    .primera-linea{
+        padding-left: 2px;
+        width: auto;
+    }
+
+    .segunda-linea{
+       padding-left: 115px;
+       width: auto;
+    }
+
+    .ultima-linea{
+        padding-left: 165px;
+        width: auto;
+    }
+
+    .formulario{
+        margin-left: 145px;
+    }
+}
+
+@media(max-width: 522px){
+    .primera-linea{
+        padding-left: 1px;
+        width: auto;
+    }
+
+    .segunda-linea{
+        padding-left: 60px;
+        width: auto;
+     }
+ 
+     .ultima-linea{
+         padding-left: 110px;
+         width: auto;
+     }
+ 
+     .formulario{
+         margin-left: 95px;
+     }
+}
+
+@media(max-width: 480px){
+    .segunda-linea{
+        padding-left: 35px;
+    }
+
+    .ultima-linea{
+        padding-left: 100px;
+    }
+
+    .caja-grande{
+        border: none;
+        background-color: rgb(237, 237, 237);
+    }
+
+    .caja-pequeña{
+        border: none;
+        background-color: rgb(237, 237, 237);
+        margin-top: 50px;
+    }
+
+    .imagen-facebook{
+        display: none;
+    }
+
+    .facebook{
+        background-color: rgb(237, 237, 237);
+    }
+
+    .formulario{
+        margin-left: 65px;
+    }
+
+    .imagen-instagram{
+        margin-top: -50px;
+    } 
+
+    .descargar-la-aplicacion{
+        margin-top: 100px;
+    }
+}
+
+@media(max-width: 464px){
+    .primera-linea{
+        padding-left: 1px;
+        width: auto;
+    }
+
+    .segunda-linea{
+        text-align: center;
+        padding-left: 2px;
+        width: auto;
+    }
+
+    .ultima-linea{
+        padding-left: 100px;
+        width: auto;
+    }
+
+    .formulario{
+        margin-left: 55px;
+    }
+}
+
+@media(max-width: 448px){
+
+    .formulario{
+        margin-left: 40px;
+    }
+
+    .ultima-linea{
+        padding-left: 60px;
+    }
+}
+
+@media(max-width: 415px){
+
+    .formulario{
+        margin-left: 32px;
+    }
+
+    .ultima-linea{
+        padding-left: 60px;
+    }
+}
+
+@media(max-width: 400px){
+
+    .formulario{
+        margin-left: 25px;
+    }
+
+    .ultima-linea{
+        padding-left: 60px;
+    }
+}
+
+@media(max-width: 390px){
+
+    .formulario{
+        margin-left: 20px;
+    }
+
+    .ultima-linea{
+        padding-left: 60px;
+    }
+}
+
+@media(max-width: 380px){
+
+    .formulario{
+        margin-left: 15px;
+    }
+
+    .ultima-linea{
+        padding-left: 60px;
+    }
+}
+
+@media(max-width: 370px){
+
+    .formulario{
+        margin-left: 10px;
+    }
+
+    .ultima-linea{
+        padding-left: 50px;
+    }
+}
+
+@media(max-width: 365px){
+
+    .formulario{
+        margin-left: 7px;
+    }
+
+    .ultima-linea{
+        padding-left: 35px;
+    }
+}
+
+@media(max-width: 355px){
+
+    .formulario{
+        margin-left: 0px;
+    }
+
+    .ultima-linea{
+        padding-left: 40px;
+        width: 110%;
+    }
+
+    .primera-linea{
+        width: 124%;
+    }
+
+    .segunda-linea{
+        width: 124%;
+    }
+}
